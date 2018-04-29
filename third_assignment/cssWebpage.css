@@ -1,0 +1,54 @@
+.rtl{
+	float: right;
+
+}
+
+#a{
+    color:white;
+}
+.container-fluid nav{
+    height: 70px;
+    background-color:  #696C76;
+}
+
+footer ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.col-list{
+	display: block;
+    float: left;
+    margin: 0 0 2%;
+    padding-right: 2%;
+    width: 33%;
+}
+.footer-copyright {
+    overflow: hidden;
+    background-color: rgba(0,0,0,.2);
+    font-size: 15px;
+    color: rgba(255,255,255,.6);
+    font-weight: 300;
+    padding: 20px;
+}
+footer{
+	color:#4f4f4f;
+	background-color: #eceff1;
+    padding:15px;
+}
+.modal-dialog {
+          width: 300px;
+          height: 500px; /* New width for default modal */
+        }
+.carousel {
+  margin-top: 71px;
+}
+
+.card{
+   width: 318px;
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

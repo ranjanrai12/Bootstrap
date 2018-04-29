@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssWebpage.css">
+</head>
+<body>
+  
+<div class="container-fluid">
+	<nav class="nav navbar-default navbar-fixed-top">
+			<a href="#"><img src="https://grytics.com/wp-content/uploads/2015/01/1414386628_facebook_circle_color-512.png" style="max-width: 50px">
+			</a>
+			<ul class="nav navbar-nav rtl">
+				<li><a id="a" href="#" data-toggle="modal" data-target="#myLogInModal"><b>LogIn</b></a></li>
+				<li><a id="a" href="#" data-toggle="modal" data-target="#myRegForm"><b>SignUp</b></a></li>
+				<li><a id="a" href="about.html" target="_blank"><b>About</b></a></li>
+			</ul>
+	</nav>
+
+<!-- LogIn Model -->
+<div id="myLogInModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Log In Form</h4>
+      </div>
+      <div class="modal-body">
+        <input type="email" placeholder="Please enter your mail id or phone no"
+         class="form-control" required><br>
+         <input type="password" placeholder="Please enter your password"
+         class="form-control" required>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-danger" data-dismiss="modal" >Cancel</button>
+        <button type="button" class="btn btn-primary">LogIn</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SignUp Model -->
+<div id="myRegForm" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">SignUp Form</h4>
+        <p>Please fill in this form to create an account.</p>
+      </div>
+      <div class="modal-body">
+      	<label>Name</label>
+        <input type="text" placeholder="Please enter your name"
+         class="form-control" required>
+      	<label>Email</label>
+        <input type="email" placeholder="Please enter your email id"
+         class="form-control" name="email" required>
+         <label>Password</label>
+         <input type="password" placeholder="Enter your password"
+         class="form-control" name="password" required>
+         <label>Repeat Password</label>
+         <input type="password" placeholder="Repeat Password"
+         class="form-control" name="password-rept" required>
+         <label><input type="checkbox">Remember me</label>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-danger" data-dismiss="modal" >Cancel</button>
+        <button type="button" class="btn btn-success">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
+  </ol>
+
+  <!-- wrapper inside for slide -->
+  <div class="carousel-inner">
+    <div class="item active"> 
+      <img src="image/image1.jpg" alt="" style="width:1366px; height:650px;">
+    </div>  
+    <div class="item"> 
+      <img src="image/image2.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image3.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image4.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image5.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image6.jpg" alt="" style="width:1366px; height:650px;">
+    </div>    
+    <div class="item"> 
+      <img src="image/image7.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image8.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image9.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+    <div class="item"> 
+      <img src="image/image10.jpg" alt="" style="width:1366px; height:650px;">
+    </div>
+  </div> 
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container-fluid" style="background-color: rgb(149, 165, 166);">
+  <div class="col-sm-4">
+    <div class="card">
+      <img src="image/cat.jpeg" alt="" width="318px" height="180px" style="margin-left: 0px">
+    </div>
+  </div>
+  <div class="col-sm-4"> 
+    <div class="card-block">
+      <h4 class="card-title">Cat</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Animal</h6>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card-block">
+      <h4 class="card-block">Description</h4>
+       <p class="card-text" style="color: blue;font-style: italic;"><b>The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines.</b></p>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+      <footer class="page-footer font-small blue-grey lighten-5 pt-0">
+          <!--Footer Links-->
+          <div class="container mt-5 mb-4 text-center text-md-left">
+              <div class="row mt-3">
+      
+                  <!--First column-->
+                  <div class="col-md-3 col-lg-3 col-xl-3 mb-4 dark-grey-text">
+                      <h4><strong>Company name</strong></h4>
+ 					<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">            <p><strong>Study Comapny :</strong> Learn about working at Study Company. Join LinkedIn today for free. See who you know at Study Company, leverage your professional network, and get hired.</p>
+                  </div>
+                  <!--/.First column-->
+      
+                  <!--Second column-->
+                  <div class="col-md-5 col-lg-5 col-xl-2 mx-auto mb-4 dark-grey-text">
+                      <h4><strong>Products</strong></h4>
+                      <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <p><a href="#!" class="dark-grey-text">Javascript</a></p>
+                      <p><a href="#!" class="dark-grey-text">Bootstrap</a></p>
+                      <p><a href="#!" class="dark-grey-text">Angular</a></p>
+                      <p><a href="#!" class="dark-grey-text">React</a></p>
+                  </div>
+                  <!--/.Second column-->
+      
+                  <!--Third column-->
+                  <div class="col-md-4 col-lg-4 col-xl-3 dark-grey-text">
+                      <h4><strong>Contact</strong></h4>
+                      <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <p><span class="glyphicon glyphicon-home"></span> India, In 7152, Bangalore</p>
+                      <p><span class="glyphicon glyphicon-envelope"></span> info@example.com</p>
+                      <p><span class="glyphicon glyphicon-phone"></span> + 91 21 45</p>
+                      <p style="float: left">
+                      <li style="list-style: none"><a href="#"><img src="http://www.foreigneronline.com/text-mutedplates/default/images/link-icon-twitter.png" width ="25px" height="24px"></a>
+					      <a href="#"><img src="http://www.negaantiqueauto.com/Images/facebook_logo.png?ver08032015
+					      " width ="25px" height="24px"></a>
+					      <a href="#"><img src="http://www.capthat.com.au/sites/default/files/images/news/YouTube_EDU_logo.png" width ="27px" height="25px"></a>
+					   </li>
+  					 </p>
+                  </div>
+                  <!--/.Third column-->
+      
+              </div>
+          </div>
+          <!--/.Footer Links-->
+      
+          <!-- Copyright-->
+          <div class="footer-copyright text-center">
+              <div class="container-fluid">
+                  © 2017 Copyright: <a href="https://study.com/"><strong> Study.com</strong></a>
+              </div>
+          </div>
+          <!--/.Copyright -->
+      </footer>
+  </div>    
+</div>
+</body>
+</html>
